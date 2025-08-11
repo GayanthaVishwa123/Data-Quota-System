@@ -1,21 +1,33 @@
-# Node.js modules folder
+# Node modules folder
 node_modules/
 
-# Env variables
+# Environment variables
 .env
 
 # Logs
 logs/
 *.log
+npm-debug.log*
 
-# OS files
+# OS system files
 .DS_Store
 Thumbs.db
 
-# Build folders
+# Build / output folders
 dist/
 build/
 
-# IDE folders
+# Coverage reports
+coverage/
+
+# IDE / editor folders
 .vscode/
 .idea/
+
+# npm package-lock
+package-lock.json
+
+# Optional: if you don't want to push package-lock.json
+# Uncomment next line if you want to ignore it
+# package-lock.json
+
